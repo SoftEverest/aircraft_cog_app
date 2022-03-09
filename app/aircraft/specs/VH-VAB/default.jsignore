@@ -1,0 +1,306 @@
+var _VH_VAB = {
+
+	registration: 'VH-VAB',
+	
+	emptyWeight: 6454.6,
+	sta: 4.73,
+	bl: 0,
+
+	lonEnvelope: 0,
+	latEnvelope: 0,
+
+	weightsAndBalances: {
+
+		cabin: [
+			  {
+			    "name":"Icom radio",
+			    "weight":2.8,
+			    "sta":1194,
+			    "bl":2
+			  },
+			  {
+			    "name":"Blood Fridge",
+			    "weight":12,
+			    "sta":3560,
+			    "bl":-800
+			  },
+			  {
+			    "name":"L.R. Supplements + maps",
+			    "weight":3,
+			    "sta":1193.8,
+			    "bl":863.7
+			  },
+			  {
+			    "name":"Crew Life Jackets  (3)",
+			    "weight":5.4,
+			    "sta":1193.8,
+			    "bl":0
+			  },
+			  {
+			    "name":"Winslow 7 man liferaft ",
+			    "weight":0,
+			    "sta":4064,
+			    "bl":-450
+			  },
+			  {
+			    "name":"Para seat supplies",
+			    "weight":2,
+			    "sta":2210,
+			    "bl":0
+			  },
+			  {
+			    "name":"Stretcher top",
+			    "weight":31.7,
+			    "sta":2972,
+			    "bl":0
+			  },
+			  {
+			    "name":"Blue Med Pack",
+			    "weight":16.8,
+			    "sta":2209.8,
+			    "bl":-620
+			  },
+			  {
+			    "name":"Down the wire bag",
+			    "weight":6.7,
+			    "sta":3531,
+			    "bl":-680
+			  },
+			  {
+			    "name":"VACIS",
+			    "weight":2,
+			    "sta":1194,
+			    "bl":850
+			  },
+			  {
+			    "name":"SAR Valise",
+			    "weight":7.2,
+			    "sta":4064,
+			    "bl":-680
+			  },
+			  {
+			    "name":"Zoll X-series + mount",
+			    "weight":10,
+			    "sta":3050,
+			    "bl":-300
+			  },
+			  {
+			    "name":"Syringe pumps, ventilator",
+			    "weight":13.7,
+			    "sta":3175,
+			    "bl":300
+			  },
+			  {
+			    "name":"Stokes litter",
+			    "weight":17,
+			    "sta":3962.4,
+			    "bl":1700
+			  },
+			  {
+			    "name":"Rear headsets",
+			    "weight":2,
+			    "sta":4064,
+			    "bl":2
+			  },
+			  {
+			    "name":"Cable cut,shot bags",
+			    "weight":7,
+			    "sta":1194,
+			    "bl":850
+			  },
+			  {
+			    "name":"Pilot seat supplies",
+			    "weight":3,
+			    "sta":1194,
+			    "bl":558.8
+			  },
+			  {
+			    "name":"Co-pilot seat supplies",
+			    "weight":2,
+			    "sta":1194,
+			    "bl":-558.8
+			  },
+			  {
+			    "name":"Quarter door  Pilot",
+			    "weight":1,
+			    "sta":2209.8,
+			    "bl":800
+			  },
+			  {
+			    "name":"Quarter door  Co-Pilot",
+			    "weight":1,
+			    "sta":2209.8,
+			    "bl":-800
+			  },
+			  {
+			    "name":"Survival kit",
+			    "weight":10,
+			    "sta":4064,
+			    "bl":-660
+			  },
+			  {
+			    "name":"Xmsn  Right supplies",
+			    "weight":12.5,
+			    "sta":3530.6,
+			    "bl":660
+			  },
+			  {
+			    "name":"Stretcher Lifter",
+			    "weight":14,
+			    "sta":3560,
+			    "bl":-700
+			  },
+			  {
+			    "name":"Manuals",
+			    "weight":3.5,
+			    "sta":1194,
+			    "bl":-600
+			  },
+			  {
+			    "name":"O2  Cylinder",
+			    "weight":4.3,
+			    "sta":1198,
+			    "bl":-700
+			  },
+			  {
+			    "name":"Mountain Bag",
+			    "weight":7,
+			    "sta":1194,
+			    "bl":850
+			  },
+			  {
+			    "name":"Hi-Line Kit",
+			    "weight":5.7,
+			    "sta":1194,
+			    "bl":850
+			  },
+			  {
+			    "name":"Burns kit",
+			    "weight":2,
+			    "sta":4064,
+			    "bl":-600
+			  },
+			  {
+			    "name":"Blood Fridge",
+			    "weight":11.7,
+			    "sta":4064,
+			    "bl":-600
+			  },
+			  {
+			    "name":"Donway",
+			    "weight":3.4,
+			    "sta":6225,
+			    "bl":0
+			  },
+			  {
+			    "name":"Paramedic dive gear",
+			    "weight":10,
+			    "sta":6500,
+			    "bl":0
+			  },
+			  {
+			    "name":"Fuel Pump and Hose",
+			    "weight":8,
+			    "sta":6225,
+			    "bl":0
+			  },
+			  {
+			    "name":"Vacuum mattress",
+			    "weight":8,
+			    "sta":7075,
+			    "bl":0
+			  },
+			  {
+			    "name":"Oils and rack",
+			    "weight":7,
+			    "sta":6173,
+			    "bl":0
+			  },
+			  {
+			    "name":"Control lock",
+			    "weight":1.7,
+			    "sta":6500,
+			    "bl":0
+			  },
+			  {
+			    "name":"Survival pack",
+			    "weight":7.3,
+			    "sta":6225,
+			    "bl":0
+			  },
+			  {
+			    "name":"Tag Line",
+			    "weight":1.5,
+			    "sta":6225,
+			    "bl":0
+			  },
+			  {
+			    "name":"Cervical collar",
+			    "weight":1,
+			    "sta":6225,
+			    "bl":0
+			  },
+			  {
+			    "name":"Munchie box",
+			    "weight":3,
+			    "sta":7620,
+			    "bl":0
+			  },
+			  {
+			    "name":"Life jackets",
+			    "weight":5,
+			    "sta":6225,
+			    "bl":0
+			  },
+			  {
+			    "name":"Night Sun ",
+			    "weight":17,
+			    "sta":1194,
+			    "bl":0
+			  },
+			  {
+			    "name":"Tac Radio Transceiver x2",
+			    "weight":0.75,
+			    "sta":127,
+			    "bl":0
+			  },
+			  {
+			    "name":"NVG Box",
+			    "weight":1.9,
+			    "sta":2972,
+			    "bl":0
+			  }
+			],
+
+		crew: [
+			  {
+			  	"role":"captin",
+			    "name":"John Hayworth",
+			    "crewId":234,
+			    "weight":89,
+			    "sta":2972,
+			    "bl":-23
+			  },
+			  {
+			  	"role":"crewman",
+			    "name":"Heather Nipper",
+			    "crewId":342,
+			    "weight":74,
+			    "sta":234,
+			    "bl":23
+			  },
+			  {
+			  	"role":"crewman",
+			    "name":"Heather Nipper",
+			    "crewId":342,
+			    "weight":74,
+			    "sta":234,
+			    "bl":23
+			  }
+		]
+
+	} 
+
+};
+
+module.exports._VH_VAB = _VH_VAB;

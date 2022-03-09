@@ -1,0 +1,287 @@
+#app {
+     margin: 0 0 30px 0;
+     position: relative;
+}
+/* contrary to behaviour of td's elsewhere on the site.. */
+ .kit_core table td {
+     vertical-align:middle;
+}
+ #content {
+     background: none;
+}
+ .chart {
+     width:450px;
+     height:300px;
+     display:inline-block;
+}
+ #cog-controls {
+     float:right;
+     height:50px;
+    /* TODO: Improve this */
+}
+ .cog-general-totals td {
+     border-top: 2px solid #666;
+     border-bottom: 2px solid #666 !important;
+     font-weight:bold;
+     text-transform: capitalize;
+     color:#333;
+}
+ .cog-totals td span{
+}
+ .cog-subtotals td {
+}
+ .cog-add-item-row td {
+     text-align:center;
+     padding-right:0px !important;
+}
+ .cog-add-item-row td a {
+     padding: 2px 6px;
+     background-color:#169700;
+}
+ .cog-action {
+     color:#55f;
+     cursor:pointer;
+}
+ .cog-table {
+     table-layout: fixed;
+}
+ .cog-header-item {
+     width: 30%;
+}
+ .cog-header-weight {
+     width: 20%;
+}
+ .cog-header-actions {
+     width:8px;
+}
+ .cog-table-header {
+     font-weight:bold;
+     font-size: 1.2em;
+     text-align: left;
+}
+ .cog-table-empty-weight td{
+     border-bottom:2px solid #ccc;
+}
+ .cog-overview {
+     font-size:1.6em;
+     margin-bottom:30px;
+     display: flex;
+}
+ .cog-bubble {
+     background-color: #999;
+     display:inline-block;
+     padding:10px 15px;
+     margin-right:8px;
+     -webkit-border-radius: 20px;
+     -webkit-border-top-right-radius: 7px;
+     -webkit-border-bottom-left-radius: 7px;
+     -moz-border-radius: 20px;
+     -moz-border-radius-topright: 7px;
+     -moz-border-radius-bottomleft: 7px;
+     border-radius: 20px;
+     border-top-right-radius: 7px;
+     border-bottom-left-radius: 7px;
+}
+ .cog-bubble span {
+     display:block;
+     color:#fff;
+     font-size:14px;
+     text-align: center;
+}
+ .cog-bubble span span {
+     float:left;
+     color:#fff;
+     padding: 8px 0 4px 0;
+     font-size:28px;
+     text-align: center;
+}
+ .cog-warning {
+     background-color: red;
+}
+ .cog-correct {
+     background-color: green;
+}
+ .cog-field-name:focus + .cog-dropdown, .cog-field-weight:focus + .cog-dropdown {
+     display:block;
+}
+ .cog-dropdown:hover {
+     display: block;
+}
+ .cog-dropdown {
+     border: 1px solid #eee;
+     display: none;
+     position:absolute;
+     background-color:#fff;
+     z-index:999;
+     border-radius: 3px;
+     max-height: 280px;
+     overflow: auto;
+     min-width: 180px;
+     box-shadow: 2px 2px 2px #888;
+}
+ .cog-crew-name {
+     padding-left:5px;
+}
+ .cog-dropdown-group {
+     font-weight:bold;
+     background-color:#efefef;
+}
+ .cog-dropdown-item, .cog-dropdown-group {
+     padding:4px 20px 4px 4px;
+}
+ .cog-dropdown-item:hover {
+     background-color:#fafafa;
+     cursor: pointer;
+}
+ input[type="string"].cog-weight-invalid input[type="number"].cog-weight-invalid {
+     border-color:red;
+}
+ input[type="number"].cog-weight-warning {
+     border-color:orange;
+}
+ .cog-item-editable:hover {
+     text-decoration: underline;
+}
+/* Display the rows actions only on hover */
+ .cog-row-actions {
+     position:absolute;
+     right:0;
+     font-weight:normal !important;
+     margin:-13px 0 0 2px;
+     height:23px;
+     padding: 3px 0 2px 0;
+     border-radius: 3px;
+     opacity: 0.85;
+}
+/* Show cog-row-actions when hovering over .cog-item-row */
+ .cog-item-row:hover .cog-row-actions, .cog-general-totals:hover .cog-row-actions {
+     display:block;
+}
+ .cog-item-row:hover .cog-action-link {
+     color:blue;
+     cursor:pointer;
+     display:inline-block;
+}
+ .cog-table input[type="string"], .cog-table input[type="number"] {
+     padding: 2px 0 0 4px;
+     margin: 0;
+     border:1px solid #ccc;
+     width: 80px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+     font-size:13px;
+     vertical-align: middle;
+}
+ .cog-table input[type="string"] {
+     width:140px;
+}
+ .cog-table input[type="string"]:focus, .cog-table input[type="number"]:focus {
+     -webkit-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.2);
+     -moz-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.2);
+     box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.2);
+     background-color:#FFFFF0;
+}
+ .cog-row-actions a {
+     float:right;
+     line-height: 15px;
+     position:relative;
+     background:none;
+     color:#999 !important;
+     border-radius:2px;
+     margin:0 6px;
+     text-decoration: none;
+}
+ .cog-action {
+     background-color:red;
+     color:#fff;
+     padding:2px 0;
+     text-align: center;
+     border-radius:2px;
+     margin:0 3px;
+}
+ .cog-item-row-disabled * {
+     text-decoration: line-through;
+     color:#999 !important;
+}
+ @media screen and (max-width: 768px) {
+     #wrapper {
+         width: 90%;
+    }
+     .cog-table {
+         width: 200% !important;
+    }
+     .zebra {
+         width: 100% !important;
+         overflow: auto !important;
+    }
+     .chart-container {
+         display: flex;
+         width: 100% !important;
+         overflow: auto;
+         padding-bottom: 40px;
+    }
+     .chart-sub-container {
+         width: 200% !important;
+         display: flex;
+    }
+     .cog-overview {
+         display: block;
+    }
+     .cog-bubble {
+         padding: 6px 2px;
+         width: 33% !important;
+         font-size: 0.2em !important;
+         color: yellow!important;
+         margin-top: 10px;
+    }
+     .cog-bubble span span {
+         float:none !important;
+         display: inline-block;
+         color:#fff;
+         padding: 0px 0 0px 0;
+         font-size:14px;
+    }
+     .cog-bubble span {
+         display: block;
+         color: #fff;
+         font-size: 1rem;
+    }
+     .cog-warning {
+         padding: 6px 2px;
+         width: 28% !important;
+    }
+     .cog-correct {
+         padding: 6px 2px;
+         width: 28% !important;
+    }
+     .cog-header-item {
+         width: 25%;
+    }
+     .cog-header-weight {
+         width: 25%;
+    }
+     .cog-header-bl {
+         width: 9%;
+    }
+     .cog-header-sta {
+         width: 10%;
+    }
+     .cog-header-sta-moment {
+         width: 13%;
+    }
+     .cog-table input[type="number"] {
+         padding: 2px 0 0 4px;
+         margin: 0;
+         border:1px solid #ccc;
+         width: 45px;
+         -webkit-border-radius: 3px;
+         -moz-border-radius: 3px;
+         border-radius: 3px;
+         font-size:13px;
+         vertical-align: middle;
+    }
+     .chart {
+     width:750px;
+  	 }
+}

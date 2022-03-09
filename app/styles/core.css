@@ -1,0 +1,171 @@
+* {
+	outline: none;
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, verdana,"sans serif";
+	font-size: 0.96em;
+	text-decoration: none;
+	color: #333;
+	line-height: 20px;
+	-webkit-text-size-adjust: none;
+}
+body {
+	background-image: url(img/bg.jpg);
+	background-repeat: repeat-x;	
+}
+#wrapper {
+	width:955px;
+	margin: 0 auto;
+	padding: 200px 0 0 0;
+}
+
+
+
+/* buttons */
+.grad_btns a {
+	display:block;
+	border-top:1px solid #bbb;
+	border-bottom:1px solid #bbb;
+	border-left:1px solid #bbb;
+	padding:5px 11px 3px 14px;
+	float:left;
+	line-height:15px;
+	color: #444;
+	text-decoration:none;
+	text-align:center;
+	font-family:arial;
+	font-size:12px;
+	cursor: pointer;
+	background: #fff url(img/grad_up.jpg) left center;
+}
+.grad_btns a span {
+	display:inline;
+	line-height:15px !important;
+}
+.grad_btns a.on {
+	color:#101010;
+	background: #fff url(img/grad_on.jpg) left center;
+}
+.grad_btns a:hover {
+	color:#101010;
+	border-bottom:1px solid #999;
+}
+.grad_add {
+	background: #fff url(img/grad_add.jpg) left center !important;
+	padding:5px 11px 3px 19px !important;
+}
+.grad_add_on, .grad_add:hover { background: #fff url(img/grad_add_over.jpg) left center !important; }
+.grad_start {
+	border-right: none;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding:4px 11px;
+}
+.grad_end {
+	border-right:1px solid #bbb;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding:4px 11px;
+}
+.grad_leftlink {
+	background: #fff url(img/grad_left.jpg) 5px center !important;
+	padding:4px 0 4px 0 !important;
+	height:15px;
+	width:28px;
+}
+.grad_rightlink {
+	background: #fff url(img/grad_right.jpg) 23px center !important;
+	padding:4px 0 4px 0 !important;
+	height:15px;
+	width:28px;
+}
+.grad_print {
+	background: #fff url(img/grad_print.jpg) 2px center !important;
+	padding:4px 6px 4px 27px !important;	
+}
+.grad_reload {
+	background: #fff url(img/grad_refresh.jpg) 1px center !important;
+	padding:4px 6px 4px 26px !important;	
+	display:block;
+	height:15px;
+}
+
+
+
+input[type="number"] {
+	padding: 2px 0 0 4px;
+	margin: 0;
+	border:1px solid #ccc;
+	width: 80px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size:13px;
+	vertical-align: middle;
+}
+input[type="number"]:focus {
+	-webkit-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow:    0px 0px 3px rgba(50, 50, 50, 0.2);
+	box-shadow:         0px 0px 3px rgba(50, 50, 50, 0.2);	
+	background-color:#FFFFF0;
+}
+
+
+
+/* tables */
+
+table {
+    border-collapse: collapse; /* 'cellspacing' equivalent */
+}
+
+table td, table th {
+    padding: 0; /* 'cellpadding' equivalent */
+}
+
+
+.kit_core {
+    font-size:13px;
+}
+.kit_core table {
+    width:100%;
+    margin: 0;
+}
+.kit_core table td {
+    padding: 4px 15px 4px 0;
+    border-bottom: 1px solid #ccc;
+    font-size:13px;
+    line-height: 20px;
+    color:#333;
+    vertical-align: middle;
+}
+.kit_core table tr.bold td, .kit_core table td a.view_item {
+    color:#444;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.kit_core p {
+    line-height: 18px;
+    color:#333;
+    font-size: 13px; 
+}
+.zebra tr:nth-child(even) {
+   background-color: #f7f7f7;
+}
+.bold {
+	font-weight: bold;
+}
+
+
+
+
+
+
